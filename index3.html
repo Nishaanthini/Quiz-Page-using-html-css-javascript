@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class=ques>
+        <h1>Which of the following extension is used to save an HTML file?</h1>
+        <div class="wrong">
+         <h3 class="a">A</h3><button type="button" class="default red"onclick="red()" ondblclick="transparent()">.hl</button><br>
+         <h3 class="a">B</h3><button type="button" class="default blue"onclick="blue()"ondblclick="transparent()">.h</button><br>
+         <h3 class="a">C</h3><button type="button"class="default rose"onclick="rose()"ondblclick="transparent()">.htl</button><br>
+        </div>
+        <div class="ans">
+         <h3 class="d">D</h3><button type="button"class="ans green"onclick="green()">.html</button>
+        </div>
+        <div class="btn">
+            <div class="btn1">
+                <button><a style="text-decoration: none;color:black; " href="index2.html">Previous</a></button>
+            </div>
+            <div class="btn1">
+                <button><a style="text-decoration: none;color:black;" href="index4.html">Next</a></button>
+            </div>
+
+        </div>
+    </div>
+<script>
+           
+           var msg=document.getElementsByClassName("default");
+        function red(){
+               document.getElementsByClassName("red")[0].style="background-color:red;color:white";
+        }
+        var wrong=document.getElementsByClassName("default");
+        function blue(){
+               document.getElementsByClassName("blue")[0].style="background-color:red;color:white";
+        }
+        var wrong=document.getElementsByClassName("default");
+        function rose(){
+               document.getElementsByClassName("rose")[0].style="background-color:red;color:white";
+        }
+        var wro=document.getElementsByClassName("ans");
+        function green(){
+               document.getElementsByClassName("green")[0].style="background-color:green;color:white";
+        }
+</script>
+</body>
+</html>
